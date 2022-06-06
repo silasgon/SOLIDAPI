@@ -1,7 +1,10 @@
-class ListQuotesUseCase {
-    constructor() { }
+import { Quote } from "../../model/Quote"
+import { IQuotesRepository } from "../../repositories/IQuotesRepository"
 
-    execute() {
+class ListQuotesUseCase {
+    constructor(private quotesRepositories: IQuotesRepository) { }
+
+    execute(): Quote[] {
         const quotes = 
     }
 }

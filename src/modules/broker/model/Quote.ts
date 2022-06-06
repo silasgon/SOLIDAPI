@@ -5,6 +5,7 @@ class Quote {
     id?: string;
     symbol: string;
     name: string;
+    price: string;
     time_zone: string;
     created_at: Date;
 
@@ -15,4 +16,4 @@ class Quote {
     }
 }
 
-export {Category}
+export {Quote}
